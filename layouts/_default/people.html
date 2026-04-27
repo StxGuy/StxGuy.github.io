@@ -1,0 +1,53 @@
+{{ define "main" }}
+<main class="page">
+  <h1>{{ .Title }}</h1>
+  {{ $roles := slice "Principal Investigator" "Postdoc" "PhD Student" }}
+  {{ range $role := $roles }}
+  {{ $members := slice }}
+  {{ range $key, $person := $.Site.Data.people }}
+    {{ if and (eq $person.role $role) (ne $person.current false) }}
+      {{ $members = append $person $members }}
+    {{ end }}
+  {{ end }}
+  {{ if $members }}
+  <h2 class="people-role">{{ $role }}s</h2>
+  <div class="people-grid">
+    {{ range $members }}
+    <div class="person-card">
+      <img src="{{ .photo }}" alt="{{ .name }}">
+      <h3>{{ .name }}</h3>
+      {{ if .now }}<p class="person-now">{{ .now }}</p>{{ end }}
+      <div class="social-links">
+        {{ if .scholar }}<a href="{{ .scholar }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>{{ end }}
+        {{ if .github }}<a href="{{ .github }}" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>{{ end }}
+        {{ if .twitter }}<a href="{{ .twitter }}" title="Twitter/X" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a>{{ end }}
+        {{ if .linkedin }}<a href="{{ .linkedin }}" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>{{ end }}
+        {{ if .instagram }}<a href="{{ .instagram }}" title="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <!-- ALUMNI -->
+  {{ $alumni := slice }}
+  {{ range $key, $person := $.Site.Data.people }}
+    {{ if eq $person.current false }}
+      {{ $alumni = append $person $alumni }}
+    {{ end }}
+  {{ end }}
+  {{ if $alumni }}
+  <h2 class="people-role">Alumni</h2>
+  <ul class="alumni-list">
+    {{ range $alumni }}
+    <li>
+      <strong>{{ .name }}</strong>
+      {{ if .now }} — {{ .now }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+</main>
+{{ end }}

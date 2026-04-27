@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C•Lab</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on C•Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/</guid>
+      <description>&lt;div class=&#34;book-card&#34;&gt;&#xA;  &lt;div class=&#34;book-cover&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/books/econophysics.jpg&#34; alt=&#34;Introduction to Econophysics&#34;&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;book-info&#34;&gt;&#xA;    &lt;h2&gt;Introduction to Econophysics&lt;/h2&gt;&#xA;    &lt;p class=&#34;book-subtitle&#34;&gt;Contemporary Approaches with Python Simulations&lt;/p&gt;&#xA;    &lt;p class=&#34;book-meta&#34;&gt;1st ed. (2021) · CRC Press, Boca Raton, FL&lt;/p&gt;&#xA;    &lt;p class=&#34;book-isbn&#34;&gt;ISBN: 978-0367648459&lt;/p&gt;&#xA;    &lt;p class=&#34;book-description&#34;&gt;&#xA;      Description of the book here.&#xA;    &lt;/p&gt;&#xA;    &lt;div class=&#34;book-links&#34;&gt;&#xA;      &lt;a href=&#34;https://github.com/StxGuy/Econophysics&#34; class=&#34;book-btn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;        &lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; Code Repository&#xA;      &lt;/a&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;details class=&#34;toc&#34;&gt;&#xA;      &lt;summary&gt;Table of Contents&lt;/summary&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;Review of Economics&lt;/li&gt;&#xA;        &lt;li&gt;Asset Return Statistics&lt;/li&gt;&#xA;        &lt;li&gt;Stochastic Calculus&lt;/li&gt;&#xA;        &lt;li&gt;Options Pricing&lt;/li&gt;&#xA;        &lt;li&gt;Portfolio Theory&lt;/li&gt;&#xA;        &lt;li&gt;Criticaly&lt;/li&gt;&#xA;        &lt;li&gt;Games and Competitions&lt;/li&gt;&#xA;        &lt;li&gt;Agent-Based Simulations&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/details&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;book-card&#34;&gt;&#xA;  &lt;div class=&#34;book-cover&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/books/ml-physics.jpg&#34; alt=&#34;Machine Learning for the Physical Sciences&#34;&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;book-info&#34;&gt;&#xA;    &lt;h2&gt;Machine Learning for the Physical Sciences&lt;/h2&gt;&#xA;    &lt;p class=&#34;book-subtitle&#34;&gt;Fundamentals and Prototyping with Julia&lt;/p&gt;&#xA;    &lt;p class=&#34;book-meta&#34;&gt;1st ed. (2023) · CRC Press, Boca Raton, FL&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Complex Systems Lab&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;School of Informatics, Computing, and Cyber Systems&lt;br&gt;&#xA;Northern Arizona University&lt;br&gt;&#xA;1295 S Knoles Dr., Flagstaff, AZ&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;msilyo:carlo.cunha@nau.edu&#34;&gt;carlo.cunha@nau.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Office:&lt;/strong&gt; SICCS (90), Room 303&lt;br&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;contact-map&#34;&gt;&#xA;&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.8159744529207!2d-111.66086242425429!3d35.18613895701197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d8f6420e5d047%3A0x5b860a3da3b34b74!2sSchool%20of%20Informatics%2C%20Computing%20%26%20Cyber%20Systems%20%E2%80%94%20NAU!5e0!3m2!1sen!2sus!4v1777318979681!5m2!1sen!2sus&#34; width=&#34;300&#34; height=&#34;225&#34; style=&#34;border:0;&#34; allowfullscreen=&#34;&#34; loading=&#34;lazy&#34; referrerpolicy=&#34;no-referrer-when-downgrade&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;div class=&#34;research-overview&#34;&gt;&#xA;  &lt;div class=&#34;overview-card&#34;&gt;&#xA;    &lt;h3&gt;Research Interests&lt;/h3&gt;&#xA;    &lt;ul&gt;&#xA;      &lt;li&gt;Biomimetic robotics&lt;/li&gt;&#xA;      &lt;li&gt;Collective intelligence&lt;/li&gt;&#xA;      &lt;li&gt;Physical AI&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;overview-card&#34;&gt;&#xA;    &lt;h3&gt;Methods&lt;/h3&gt;&#xA;    &lt;ul&gt;&#xA;      &lt;li&gt;Non-equilibrium statistical mechanics&lt;/li&gt;&#xA;      &lt;li&gt;Stochastic processes&lt;/li&gt;&#xA;      &lt;li&gt;Embodied AI &amp; swarm intelligence&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;recent-projects&#34;&gt;Recent Projects&lt;/h2&gt;&#xA;&lt;div class=&#34;project-card&#34;&gt;&#xA;  &lt;div class=&#34;project-info&#34;&gt;&#xA;    &lt;h3&gt;Social Robots&lt;/h3&gt;&#xA;    &lt;p&gt;The goal of this project is to design robots that interact with each other, with animals, and with humans. Rather than programming fixed outcomes, this project harnesses &lt;b&gt;emergence&lt;/b&gt; as a generative principle, engineering local interaction rules that give rise to &lt;i&gt;interesting, remarkable, and unusual&lt;/i&gt; (Olkowski, 2011) behaviors that transcend the predictable. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Robots</title>
+      <link>http://localhost:1313/robots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/robots/</guid>
+      <description>&lt;div class=&#34;robot-card&#34;&gt;&#xA;  &lt;div class=&#34;robot-header&#34;&gt;&#xA;    &lt;h2&gt;VICTOR&lt;/h2&gt;&#xA;    &lt;p class=&#34;robot-subtitle&#34;&gt;Vibration Controlled Tactical Operating Robot&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;robot-body&#34;&gt;&#xA;    &lt;div class=&#34;robot-img&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/robots/VICTOR.jpg&#34; alt=&#34;VICTOR&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;robot-info&#34;&gt;&#xA;      &lt;p&gt;VICTOR is an inexpensive vibration-based robot that displays stochastic motion. It is used to study spontaneous self-assembly in teams of robots.&lt;/p&gt;&#xA;      &lt;div class=&#34;robot-links&#34;&gt;&#xA;        &lt;a href=&#34;http://localhost:1313/files/victor_mechanics.pdf&#34; class=&#34;robot-btn&#34;&gt;⚙️ Mechanics CAD&lt;/a&gt;&#xA;        &lt;a href=&#34;http://localhost:1313/files/victor_electronics.pdf&#34; class=&#34;robot-btn&#34;&gt;🔌 Electronics&lt;/a&gt;&#xA;        &lt;a href=&#34;https://www.youtube.com/watch?v=yXpA9rAAEUI&amp;list=PLcOkcqYHNY0A9tVPABdsOw0HBvMV7mFWK&amp;pp=0gcJCbcEOCosWNin&#34; class=&#34;robot-btn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;▶ Video&lt;/a&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;robot-card&#34;&gt;&#xA;  &lt;div class=&#34;robot-header&#34;&gt;&#xA;    &lt;h2&gt;RAY&lt;/h2&gt;&#xA;    &lt;p class=&#34;robot-subtitle&#34;&gt;Robot for Aquatic Yield&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;robot-body&#34;&gt;&#xA;    &lt;div class=&#34;robot-img&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/robots/RAY.jpg&#34; alt=&#34;RAY&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;robot-info&#34;&gt;&#xA;      &lt;p&gt;RAY is our robot that operates underwater. The purpose of the RAY is to study fish school dynamics and the interaction between robots and aquatic animals.&lt;/p&gt;&#xA;      &lt;div class=&#34;robot-links&#34;&gt;&#xA;        &lt;a href=&#34;http://localhost:1313/files/ray_mechanics.pdf&#34; class=&#34;robot-btn&#34;&gt;⚙️ Mechanics CAD&lt;/a&gt;&#xA;        &lt;a href=&#34;http://localhost:1313/files/ray_electronics.pdf&#34; class=&#34;robot-btn&#34;&gt;🔌 Electronics&lt;/a&gt;&#xA;        &lt;a href=&#34;https://www.youtube.com/watch?v=FljkU2jyOrQ&amp;list=PLcOkcqYHNY0BVq6tEWt6Enz5qO_J5if3k&#34; class=&#34;robot-btn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;▶ Video&lt;/a&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
