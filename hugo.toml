@@ -1,4 +1,4 @@
-baseURL = "https://StxGuy.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "C•Lab"
 [markup.goldmark.renderer]

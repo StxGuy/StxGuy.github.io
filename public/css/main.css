@@ -1,19 +1,25 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Georgia', serif;
-  color: #222;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 2rem;
+    font-family: 'Georgia', serif;
+    color: #222;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ── HEADER ── */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
 }
 
 nav {
@@ -23,50 +29,56 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
 }
 
 nav a {
-  text-decoration: none;
-  color: #222;
-  font-size: 0.95rem;
+    text-decoration: none;
+    color: #222;
+    font-size: 0.95rem;
 }
 
+.logo {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #222;
+}
+
+/* ── FOOTER ── */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid #eee;
+    color: #999;
+    font-size: 0.85rem;
+}
+
+/* ── HERO ── */
 .hero {
-  text-align: center;
-  padding: 5rem 0;
+    text-align: center;
+    padding: 5rem 0;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin: 1rem 0 0.5rem;
+    font-size: 3rem;
+    margin: 1rem 0 0.5rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: #666;
+    font-size: 1.2rem;
+    color: #666;
 }
 
 .hero img {
     width: 200px;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem 0;
-  margin-top: 4rem;
-  border-top: 1px solid #eee;
-  color: #999;
-  font-size: 0.85rem;
-}
-
-.logo {
-    font-weight: bold;
-}
-
+/* ── CONTACT PAGE ── */
 .page {
     padding: 3rem 0;
     max-width: 700px;
@@ -109,6 +121,22 @@ footer {
     line-height: 2;
 }
 
+.contact-map {
+    margin: 2rem auto 0;
+    margin-top: 2rem;
+    border: 2px solid #111;
+    width: 100%;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.contact-map iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+/* ── PEOPLE PAGE ── */
 .people-role {
     font-size: 1.4rem;
     margin: 3rem 0 1rem;
@@ -141,23 +169,369 @@ footer {
     margin-bottom: 0.4rem;
 }
 
+.person-now {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0.3rem 0;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 0.6rem;
-    flex-wrap: wrap;
+    gap: 0.8rem;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .social-links a {
-    font-size: 0.8rem;
-    color: #0066cc;
+    font-size: 1.3rem;
+    color: #888;
     text-decoration: none;
-    border: 1px solid #0066cc;
-    padding: 0.1rem 0.5rem;
-    border-radius: 3px;
+    border: none;
+    padding: 0.2rem;
 }
 
 .social-links a:hover {
-    background: #0066cc;
+    color: #ffffff;
+    background: #0066aa;
+}
+
+.alumni-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.alumni-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+/* ── RESEARCH PAGE ── */
+.research {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.research h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 0.2rem;
+    color: #111;
+}
+
+.research h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin: 4rem 0 1.5rem;
+    color: #111;
+    border-left: 6px solid #111;
+    padding-left: 1rem;
+}
+
+.research p {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+.research-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0 3rem;
+}
+
+.overview-card {
+    background: #f5f5f5;
+    border-top: 4px solid #111;
+    padding: 2rem;
+}
+
+.overview-card h3 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: #888;
+}
+
+.overview-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.overview-card ul li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 1rem;
+}
+
+.overview-card ul li:last-child {
+    border-bottom: none;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 2px solid #111;
+}
+
+.project-card:hover {
+    background: #0066aa;
+    transition: background 0.2s ease;
+}
+
+.project-card:hover .project-info h3,
+.project-card:hover .project-info p {
+    color: #fff;
+    transition: color 0.2s ease;
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 0.8rem;
+    color: #111;
+}
+
+.project-info p {
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+.project-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: none;
+}
+
+/* ── ROBOTS PAGE ── */
+.robots {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.robots h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    color: #111;
+}
+
+.robot-card {
+    margin: 3rem 0;
+    border: 2px solid #111;
+}
+
+.robot-header {
+    background: #111;
     color: white;
+    padding: 1.5rem 2rem;
+}
+
+.robot-header h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 0.2rem;
+}
+
+.robot-subtitle {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.robot-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.robot-img {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robot-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.robot-info p {
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.robot-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.robot-btn {
+    display: block;
+    padding: 0.7rem 1rem;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.robot-btn:hover {
+    background: #0066aa;
+    color: white;
+}
+
+/* ── BOOKS PAGE ── */
+.books {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.books h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    color: #111;
+}
+
+.book-card {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 3rem;
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #111;
+}
+
+.book-card:last-child {
+    border-bottom: none;
+}
+
+.book-cover img {
+    width: 100%;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.2);
+}
+
+.book-info h2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.3rem;
+    color: #111;
+}
+
+.book-subtitle {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.book-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.2rem;
+}
+
+.book-isbn {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+.book-description {
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.book-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.book-btn {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.book-btn:hover {
+    background: #111;
+    color: white;
+}
+
+.toc {
+    margin-top: 1rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.toc summary {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.toc summary:hover {
+    color: #111;
+}
+
+.toc ol {
+    padding-left: 1.5rem;
+    color: #444;
+    line-height: 2;
+    font-size: 0.95rem;
 }
