@@ -2,7 +2,6 @@
 title: Contact
 ---
 
-## Get in Touch
 
 **Complex Systems Lab**
 

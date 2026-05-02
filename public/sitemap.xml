@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/people/</loc>
   </url><url>
+    <loc>http://localhost:1313/presentations/</loc>
+  </url><url>
     <loc>http://localhost:1313/research/</loc>
   </url><url>
     <loc>http://localhost:1313/robots/</loc>
