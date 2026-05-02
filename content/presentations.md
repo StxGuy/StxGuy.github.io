@@ -6,10 +6,12 @@ layout: presentations
 ## 2026
 
 - **7<sup>th</sup> AIRC** · Savannah, GA · <a href="https://drive.google.com/file/d/1xFKM6NcmmHOivLD9eKj2P66etHDudURq/view?usp=sharing" target="_blank" rel="noopener">LLM-based RL for Controlling Robot Swarms</a>
+- **APS Physics Summit** · Denver, CO · <a href="https://drive.google.com/file/d/16Ea5Iqfo9nP9u_OcBXvtl1OXGshPu7IA/view?usp=sharing" target="_blank" rel="noopener">Learning to Flock</a>
 
 ## 2025
 
 - **Florida Atlantic University** · West Palm Beach, FL · <a href="https://drive.google.com/file/d/1BSrHvHSGneqNuBjQ3m8EUYpwArMeFxuF/view?usp=sharing" target="_blank" rel="noopener">When Birds Learn to Sing *E Pluribus Unum*</a> <span class="tag invited">Invited</span>
+- "NeurIPS" · San Diego, CA · <a href="https://drive.google.com/file/d/1L2hhUxXmA5391u3I4l-QPYlNtrX1ODwe/view?usp=sharing" target="_blank" rel="noopener">Fear Driven Collective Topology</a>
 - **APS Physics Summit** · Anaheim, CA · <a href="https://drive.google.com/file/d/1Qi441N_asZ9CDNAZ_EyY8oGHmRGqzoQm/view?usp=sharing" target="_blank" rel="noopener">From Interaction to Faction</a>
 - **APS Physics Summit** · Anaheim, CA · <a href="https://drive.google.com/file/d/1nw06-yCJkN2W3Lu0co4Od2GZtyt3GklL/view?usp=sharing" target="_blank" rel="noopener">Swarming Dynamics of Cognitive Agents</a>
 
