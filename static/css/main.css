@@ -535,3 +535,104 @@ footer {
     line-height: 2;
     font-size: 0.95rem;
 }
+
+/* ── PRESENTATIONS PAGE ── */
+.presentations {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.presentations h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    color: #111;
+}
+
+.presentations h2 {
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 3rem 0 0;
+    padding: 0.5rem 1rem;
+    background: #111;
+    color: white;
+    display: inline-block;
+}
+
+.presentations ul {
+    list-style: none;
+    padding: 0;
+    border: 2px solid #111;
+    margin-bottom: 2rem;
+}
+
+.presentations ul li {
+    padding: 1.2rem 1.5rem;
+    border-bottom: 1px solid #eee;
+    line-height: 1.6;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.presentations ul li:last-child {
+    border-bottom: none;
+}
+
+.presentations ul li:hover {
+    background: #0066aa;
+    color: white;
+}
+
+.presentations ul li:hover strong,
+.presentations ul li:hover a,
+.presentations ul li:hover .tag.invited,
+.presentations ul li:hover .tag.contributed {
+    color: white;
+    border-color: white;
+}
+
+.presentations ul li strong {
+    color: #111;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.presentations a {
+    color: #111;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.presentations a:hover {
+    text-decoration: underline;
+}
+
+.tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.tag.invited {
+    font-style: italic;
+    color: #888;
+}
+
+.tag.contributed {
+    background: white;
+    color: #111;
+    border: 1px solid #111;
+}
