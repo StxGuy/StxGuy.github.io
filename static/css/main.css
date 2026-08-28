@@ -636,3 +636,190 @@ footer {
     color: #111;
     border: 1px solid #111;
 }
+
+/* ── MEDIA PAGE ── */
+.media {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+.media h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+.media-intro p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.05rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.media-year {
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 3rem 0 1.5rem;
+    padding: 0.5rem 1rem;
+    background: #111;
+    color: white;
+    display: inline-block;
+}
+.media-card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+    align-items: start;
+    border: 2px solid #111;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    transition: background 0.2s ease;
+}
+.media-card.no-thumb {
+    grid-template-columns: 1fr;
+}
+.media-thumb {
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #eee;
+}
+.media-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.media-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+}
+.media-outlet {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111;
+}
+.media-date {
+    font-size: 0.8rem;
+    color: #888;
+}
+.tag.media-type {
+    background: #111;
+    color: white;
+}
+.tag.media-lang {
+    background: white;
+    color: #111;
+    border: 1px solid #111;
+}
+.media-title {
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+    color: #111;
+}
+.media .media-title a {
+    color: #111;
+    text-decoration: none;
+}
+.media .media-title a:hover {
+    text-decoration: none;
+}
+.media-quote {
+    border-left: 4px solid #4a6fa5;
+    padding-left: 1rem;
+    margin: 0.8rem 0;
+    font-style: italic;
+    color: #555;
+    line-height: 1.7;
+}
+.media-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 2px solid #111;
+    padding-bottom: 0.1rem;
+}
+/* hover state, matching .project-card */
+.media-card:hover {
+    background: #0066aa;
+}
+.media-card:hover .media-title,
+.media-card:hover .media-title a,
+.media-card:hover .media-outlet,
+.media-card:hover .media-date,
+.media-card:hover .media-quote,
+.media-card:hover .media-link {
+    color: #fff;
+    border-color: #fff;
+    transition: color 0.2s ease;
+}
+.media-card:hover .media-quote {
+    border-left-color: #fff;
+}
+.media-card:hover .tag.media-type {
+    background: #fff;
+    color: #111;
+}
+.media-card:hover .tag.media-lang {
+    background: transparent;
+    color: #fff;
+    border-color: transparent;
+}
+.media-card:hover .media-thumb {
+    border-color: transparent;
+}
+@media (max-width: 700px) {
+    .media h1 { font-size: 2.4rem; letter-spacing: -1px; }
+    .media-card { grid-template-columns: 1fr; gap: 1.2rem; }
+    .media-thumb { height: 200px; }
+}
+
+.media .media-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 2px solid #111;
+    padding-bottom: 0.1rem;
+}
+.media .media-card:hover .media-title a,
+.media .media-card:hover .media-link {
+    color: #fff;
+    border-color: transparent;
+}
+
+.media-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.media-card:hover .media-thumb {
+    border-color: transparent;
+}

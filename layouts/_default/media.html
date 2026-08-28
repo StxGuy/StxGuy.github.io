@@ -1,0 +1,40 @@
+{{ define "main" }}
+<main class="page media">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="media-intro">{{ . }}</div>{{ end }}
+
+  {{ $items := sort $.Site.Data.media "date" "desc" }}
+  {{ $years := slice }}
+  {{ range $items }}
+    {{ $y := dateFormat "2006" .date }}
+    {{ if not (in $years $y) }}{{ $years = $years | append $y }}{{ end }}
+  {{ end }}
+
+  {{ range $year := $years }}
+  <h2 class="media-year">{{ $year }}</h2>
+  {{ range $items }}
+    {{ if eq (dateFormat "2006" .date) $year }}
+    <article class="media-card{{ if not .thumb }} no-thumb{{ end }}">
+      {{ with .thumb }}
+      <div class="media-thumb"><img src="{{ . }}" alt=""></div>
+      {{ end }}
+      <div class="media-info">
+        <div class="media-meta">
+          <span class="media-outlet">{{ .outlet }}</span>
+          <span class="media-date">{{ dateFormat "2 January 2006" .date }}</span>
+          {{ with .type }}<span class="tag media-type">{{ . }}</span>{{ end }}
+          {{ with .lang }}<span class="tag media-lang">{{ . }}</span>{{ end }}
+        </div>
+        <h3 class="media-title">
+          {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+          {{ else }}{{ .title }}{{ end }}
+        </h3>
+        {{ with .quote }}<blockquote class="media-quote">{{ . }}</blockquote>{{ end }}
+        {{ with .url }}<a class="media-link" href="{{ . }}" target="_blank" rel="noopener">Read the piece</a>{{ end }}
+      </div>
+    </article>
+    {{ end }}
+  {{ end }}
+  {{ end }}
+</main>
+{{ end }}

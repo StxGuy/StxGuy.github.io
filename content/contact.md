@@ -11,7 +11,7 @@ Newark, NJ 07102<br>
 
 **Email:** [carlo.dacunha@njit.edu](mailto:carlo.dacunha@njit.edu)
 
-**Office:** ECEC (16), Room 321<br>
+**Office:** ECEC (16), Room 307<br>
 
 
 <div class="contact-map">
